@@ -1,0 +1,8 @@
+﻿  stdafx.cpp
+  Caesar Cipher.cpp
+e:\practical cryptography\caesar cipher\caesar cipher\caesar cipher.cpp(55): warning C4018: “<”: 有符号/无符号不匹配
+e:\practical cryptography\caesar cipher\caesar cipher\caesar cipher.cpp(34): warning C4101: “chc”: 未引用的局部变量
+e:\practical cryptography\caesar cipher\caesar cipher\caesar cipher.cpp(46): warning C4101: “k”: 未引用的局部变量
+e:\practical cryptography\caesar cipher\caesar cipher\caesar cipher.cpp(61): warning C4101: “str”: 未引用的局部变量
+  Caesar Cipher.vcxproj -> E:\Practical Cryptography\Caesar Cipher\Debug\Caesar Cipher.exe
+  Caesar Cipher.vcxproj -> E:\Practical Cryptography\Caesar Cipher\Debug\Caesar Cipher.pdb (Full PDB)
