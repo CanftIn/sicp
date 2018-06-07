@@ -1,2 +1,2 @@
 all:
-	guile test.scm
+	guile *.scm
