@@ -1,2 +1,4 @@
-# Caesar-Cipher
-Implementation Of Caesar Cipher By C++
+# sicp
+
+SICP是经典之书，我之前看的时候每次都有些新收获，但是总是没看完，并且很多地方还缺乏一定的理解。
+本repo记录我的阅读过程及习题练习。
