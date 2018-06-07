@@ -1,0 +1,2 @@
+all:
+	guile test.scm
