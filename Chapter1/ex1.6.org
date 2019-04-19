@@ -1,0 +1,3 @@
+单纯的尾递归并不会造成解释器的栈溢出，因为 scheme 解释器的实现都是带有尾递归优化的，但是在 new-if 的这个例子里，因为 sqrt-iter 函数的返回值要被 new-if 作为参数使用，所以对 sqrt-iter 的调用并不是尾递归，这样的话，尾递归优化自然也无法进行了，因此 new-if 和 sqrt-iter 的递归会最终突破解释器的最大递归深度，从而造成错误
+
+https://github.com/huangz1990/SICP-answers/blob/master/chp1/6.rst
