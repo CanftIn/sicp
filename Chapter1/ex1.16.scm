@@ -14,3 +14,11 @@
                     (* b a)))))
 
 (define (square x) (* x x))
+
+(define (exp-iter b n)
+  (define (exp-iter-internal a b n)
+    (cond ((= n 1) (* a b))
+          ((even? n) (exp-iter-internal a (* b b) (/ n 2)))
+          (else
+           (exp-iter-internal (* a a) (* b b) (/ (- n 1) 2)))))
+  (exp-iter-internal 1 b n))
