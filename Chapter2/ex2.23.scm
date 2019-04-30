@@ -1,0 +1,5 @@
+(define (for-each proc items)
+  (if (null? items)
+      '()
+      ((proc (car items))
+       (for-each proc (cdr items)))))
